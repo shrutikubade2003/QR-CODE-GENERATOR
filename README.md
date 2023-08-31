@@ -29,15 +29,15 @@ Table of Contents
 9. JavaScript Logic
    - Overview of the JavaScript logic for generating and displaying QR codes.
 
- 1. Introduction
+ 10. Introduction
 
 The QR Code Generator is a web page designed to allow users to generate QR codes for their desired text or URL along with selecting the size of the QR code. This documentation provides an overview of the different sections and functionalities of the web page.
 
- 2. HTML Structure
+ 1. HTML Structure
 
 The HTML file follows a standard structure with the `<head>` and `<body>` sections. The main components are placed within the `<body>` section.
 
- 3. Head Section
+ 2. Head Section
 
 In the `<head>` section of the HTML file, several meta tags and external resources are included:
 
@@ -46,11 +46,11 @@ In the `<head>` section of the HTML file, several meta tags and external resourc
 - title: Sets the title of the web page.
 - link: Connects an external stylesheet (style.css) to control the page's visual presentation.
 
- 4. Body Section
+ 3. Body Section
 
 The main content of the web page is included in the `<body>` section. It consists of three main parts:
 
- 5. QR Header
+ 4. QR Header
 
 This section includes:
 
@@ -58,21 +58,21 @@ This section includes:
 - <input>: A text input field where users can enter the text or URL for the QR code.
 - <select>: A dropdown menu for selecting the size of the QR code.
 
- 6. QR Body
+ 5. QR Body
 
 This section is a container where the generated QR code will be displayed.
- 7. QR Footer
+ 6. QR Footer
 
 This section includes:
 
 - <a>: A link with the id "generateBtn" that users can click to generate the QR code.
 - <a>: A link with the id "downloadBtn" that users can click to download the generated QR code as an image file.
 
- 8. Script Sources
+ 7. Script Sources
 
 - The [qrcode.min.js](https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js) library is linked from a content delivery network (CDN). This library enables the generation of QR codes.
 
-9. JavaScript Logic
+8. JavaScript Logic
 
 The JavaScript logic for generating and displaying QR codes is included in the "script.js" file. This logic likely performs the following tasks:
 
